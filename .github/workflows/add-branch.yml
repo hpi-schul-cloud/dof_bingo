@@ -4,7 +4,7 @@ on:
   workflow_call:
     inputs:
       branch:
-        description: 'branch to if not existent'
+        description: 'branch to add if not existent'
         required: true
         type: string
     secrets:
