@@ -1,0 +1,43 @@
+name: Add Branch
+
+on:
+  workflow_call:
+    inputs:
+      branch:
+        description: 'branch to if not existent'
+        required: true
+        type: string
+    secrets:
+      bingo_token:
+        required: true
+    outputs:
+      deploy_to_instances:
+        description: "comma separated list: dbc,nbc,brb containing y or n"
+        value: ${{ jobs.get_values_insert_branch_if_not_existent.outputs.output1 }}
+
+jobs:
+  get_values_insert_branch_if_not_existent:
+    runs-on: ubuntu-latest
+    outputs:
+      output1: ${{ steps.add_branch_and_get_values.outputs.deploy_to_instances }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.bingo_token }}
+      - id: add_branch_and_get_values
+        run: |
+          echo 'branch to be dealt with: ${{ inputs.branch }} '
+          if grep -q "${{ inputs.branch }}," bingo.csv; then
+            echo 'branch does exist'
+          else 
+            echo 'branch does not exist, adding to table'
+            echo "${{ inputs.branch }},y,y,y" >> bingo.csv
+            git config --global user.name "some-bot"
+            git config --global user.email "some-bot@users.noreply.github.com"
+            git add bingo.csv
+            git commit -m "adding ${{ inputs.branch }} on behalf of tbd"
+            git push
+          fi
+          values=$(grep -Po '${{ inputs.branch }},\K.*' bingo.csv)
+          echo "values for branch ${{ inputs.branch }} are: $values"
+          echo "deploy_to_instances=$values" >> $GITHUB_OUTPUT
