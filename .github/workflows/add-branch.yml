@@ -13,13 +13,13 @@ on:
     outputs:
       deploy_to_instances:
         description: "comma separated list: dbc,nbc,brb containing y or n"
-        value: ${{ jobs.get_values_insert_branch_if_not_existent.outputs.output1 }}
+        value: ${{ jobs.get_values_insert_branch_if_not_existent.outputs.deploy_to_instances }}
 
 jobs:
   get_values_insert_branch_if_not_existent:
     runs-on: ubuntu-latest
     outputs:
-      output1: ${{ steps.add_branch_and_get_values.outputs.deploy_to_instances }}
+      deploy_to_instances: ${{ steps.add_branch_and_get_values.outputs.deploy_to_instances }}
     steps:
       - uses: actions/checkout@v3
         with:
