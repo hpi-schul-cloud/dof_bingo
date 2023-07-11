@@ -18,7 +18,8 @@ jobs:
       - run: echo ${{ inputs.branch }}
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.BINGO_TOKEN }}
+          repository: hpi-schul-cloud/dof_bingo
+          token: ${{ secrets.bingo_token }}
       - run: |
           echo 'branch to be dealt with: ${{ inputs.branch }} '
           sed -i '/${{ inputs.branch }},/d' bingo.csv
