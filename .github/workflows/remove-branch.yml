@@ -7,6 +7,9 @@ on:
         description: 'branch to delete'
         required: true
         type: string
+    secrets:
+      bingo_token:
+        required: true
 
 jobs:
   remove_branch:
