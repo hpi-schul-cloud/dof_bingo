@@ -23,6 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
+          repository: hpi-schul-cloud/dof_bingo
           token: ${{ secrets.bingo_token }}
       - id: add_branch_and_get_values
         run: |
