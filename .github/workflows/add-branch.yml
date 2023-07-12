@@ -21,7 +21,7 @@ jobs:
     outputs:
       deploy_to_instances: ${{ steps.add_branch_and_get_values.outputs.deploy_to_instances }}
     steps:
-      - id: testtest
+      - id: printing branch
         run: |
             echo 'branch to be dealt with: ${{ inputs.branch }} '
       - uses: actions/checkout@v3
