@@ -29,7 +29,6 @@ bc-4531-improve-create-submission-item-api,y,y,y
 bc-4462-replace-individual-icons-imports,y,y,y
 bc-4180-use-i18n-composable,y,y,y
 bc-4573-rewrite-files-user-data-deletion,y,y,y
-bc-4665-yargs-parser,y,y,y
 bc-4666-connect-redis,y,y,y
 bc-4667-feedr,y,y,y
 bc-4463-add-bettermarks-announcement,y,y,y
