@@ -38,3 +38,4 @@ thr-34a-nonce-bug-fix,y,y,y
 bc-4624-failed-builds-should-be-reported,y,y,y
 n21-1115-activate-ctl-again,y,y,y
 bc-4828-update-column-title,y,y,y
+n21-1163-fix-boolean-validation,y,y,y
