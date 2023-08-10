@@ -40,3 +40,4 @@ ew-599,y,y,y
 thr-34a-nonce-bug-fix,y,y,y
 n21-843-get-user-login-migration,y,y,y
 bc-4624-failed-builds-should-be-reported,y,y,y
+n21-1115-activate-ctl-again,y,y,y
