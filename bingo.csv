@@ -28,7 +28,6 @@ bc-4531-improve-create-submission-item-api,y,y,y
 bc-4462-replace-individual-icons-imports,y,y,y
 bc-4180-use-i18n-composable,y,y,y
 bc-4573-rewrite-files-user-data-deletion,y,y,y
-bc-4463-add-bettermarks-announcement,y,y,y
 bc-4706-bump-word-wrap-from-1-2-3-to-1-2-5,y,y,y
 thr-25-temp-storage-s3,y,y,y
 32-3,y,y,y
