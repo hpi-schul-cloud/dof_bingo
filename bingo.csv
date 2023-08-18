@@ -29,7 +29,6 @@ thr-34a-nonce-bug-fix,y,y,y
 bc-4786-create-api-get-submission-items,y,y,y
 bc-4683-update-semver,y,y,y
 bc-4683-dependency-updates,y,y,y
-n21-1163-activate-ctl-feature,y,y,y
 thr-41-adjust-csp-rule,y,y,y
 bc-4476-same-download-placement,y,y,y
 32-4,y,y,y
