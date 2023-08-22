@@ -23,7 +23,6 @@ bc-4706-bump-word-wrap-from-1-2-3-to-1-2-5,y,y,y
 32-3,y,y,y
 ew-599,y,y,y
 thr-34a-nonce-bug-fix,y,y,y
-bc-4786-create-api-get-submission-items,y,y,y
 bc-4683-update-semver,y,y,y
 bc-4683-dependency-updates,y,y,y
 thr-41-adjust-csp-rule,y,y,y
