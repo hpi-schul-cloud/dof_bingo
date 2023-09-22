@@ -70,3 +70,4 @@ bc-3468-video-spike,y,y,y
 bc-4970-legacy-user-files-retrieval,y,y,y
 bc-5041-remove-consent-notice,y,y,y
 ux-test-elements,y,y,y
+bc-3475-fix-500-error,y,y,y
