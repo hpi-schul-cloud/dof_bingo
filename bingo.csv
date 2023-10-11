@@ -80,3 +80,4 @@ n21-1273-adds-externalidtoken-to-icurruser,y,y,y
 n21-1369-locales-fix,y,y,y
 bc-5477-fix-course-until-date-bug,y,y,y
 bc-2804-remap-imports-modules-folder,y,y,y
+bc-5504-update-dayjs,y,y,y
