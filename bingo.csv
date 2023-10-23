@@ -73,7 +73,6 @@ bc-4895-blacklist-email-addresses,y,y,y
 32-12,y,y,y
 bc-4482-revert-incorrect-board-menu-item,y,y,y
 bc-5159-gif-display-error,y,y,y
-bc-5526-fix-printing-qr-code,y,y,y
 bc-4453-submission-item-file,y,y,y
 bc-5444-typing-date,y,y,y
 bc-5582-display-pdfs,y,y,y
