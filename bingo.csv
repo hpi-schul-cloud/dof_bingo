@@ -85,3 +85,4 @@ bc-5597-fix-unstable-tests,y,y,y
 32-13,y,y,y
 n21-1318-complete-new-class-page,y,y,y
 bc-5611-add-new-create-task-endpoint,y,y,y
+bc-5649-fix-prometheus-test,y,y,y
