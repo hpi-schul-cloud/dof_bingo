@@ -96,3 +96,4 @@ n21-1329-provisioning-gzip-compression,y,y,y
 32-14,y,y,y
 bc-5693,y,y,y
 bc-3513-remove-i-prefix-in-interfaces,y,y,y
+bc-5705-fwu-fix,y,y,y
