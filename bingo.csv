@@ -85,7 +85,6 @@ n21-1329-provisioning-gzip-compression,y,y,y
 32-14,y,y,y
 bc-3513-remove-i-prefix-in-interfaces,y,y,y
 bc-5583-display-pdf-preview,y,y,y
-bc-5713-show-spinner,y,y,y
 ew-654-review-06-11-23,y,y,y
 ops-5015-use-proxy-for-auto-deployments,y,y,y
 board-detail-view-ux-testing,y,y,y
