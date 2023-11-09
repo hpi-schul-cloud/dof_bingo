@@ -93,6 +93,5 @@ dmed-25-its-jointly-demo,y,y,y
 n21-1336-change-tool-versioning,y,y,y
 bc-5522-impl-of-deletion-api,y,y,y
 bc-5750-sender-domains,y,y,y
-n21-1187-fix-optional-regex-param,y,y,y
 bc-5727-use-etag-for-preview,y,y,y
 bc-5753,y,y,y
