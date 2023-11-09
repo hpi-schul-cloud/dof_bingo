@@ -96,3 +96,4 @@ bc-5750-sender-domains,y,y,y
 bc-5727-use-etag-for-preview,y,y,y
 bc-5753,y,y,y
 bc-5662-add-linter-rule-deep-module-imports,y,y,y
+bc-5722-fix-chat-activation-text,y,y,y
