@@ -103,7 +103,6 @@ bc-5119-prevent-creating-new-nexboards-server,y,y,y
 bc-5565-bump-ckeditor5,y,y,y
 n21-1494-info-outdated-ctl-tools,y,y,y
 bc-5829-update-mongoose,y,y,y
-n21-1505-avoid-system-deletion,y,y,y
 bc-4564-delete-board-with-course,y,y,y
 ew-359,y,y,y
 bc-5667-refactor-content-element-bar,y,y,y
