@@ -111,3 +111,4 @@ bc-5838-remove-const-all-entities,y,y,y
 bc-5883-move-modules-deletion-client-console,y,y,y
 bc-4710-deployment,y,y,y
 bc-5882-adjust-keycloak-heap,y,y,y
+n21-1553-fix-ctl-board-delete,y,y,y
