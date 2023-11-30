@@ -109,6 +109,5 @@ bc-5838-remove-const-all-entities,y,y,y
 bc-5883-move-modules-deletion-client-console,y,y,y
 32-17,y,y,y
 tldraw-add-metric,y,y,y
-bc-4710-add-types,y,y,y
 ops-5142-add-bucket-names-h5p,y,y,y
 bc-5906-clear-env-email-blacklist,y,y,y
