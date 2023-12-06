@@ -90,7 +90,6 @@ bc-5119-prevent-creating-new-nexboards-server,y,y,y
 bc-5829-update-mongoose,y,y,y
 bc-4564-delete-board-with-course,y,y,y
 bc-5667-refactor-content-element-bar,y,y,y
-bc-5863-remove-tiptap,y,y,y
 dmed-119-integration-of-search-environment,y,y,y
 bc-5850-space-files,y,y,y
 bc-5838-remove-const-all-entities,y,y,y
