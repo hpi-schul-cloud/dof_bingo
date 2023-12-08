@@ -119,3 +119,4 @@ bc-5990-set-csp-rules,y,y,y
 deletion-draft,y,y,y
 mongodb-6-3-0,y,y,y
 n21-1479-provisioning-options,y,y,y
+bc-5917-skip-antivirus-check,y,y,y
