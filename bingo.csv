@@ -87,7 +87,6 @@ bc-5838-remove-const-all-entities,y,y,y
 bc-5883-move-modules-deletion-client-console,y,y,y
 32-17,y,y,y
 ops-5142-add-bucket-names-h5p,y,y,y
-bc-5135-activate-import,y,y,y
 bc-5876-implement-h5p-proxy,y,y,y
 get-func-name-2-0-2,y,y,y
 bc-5830-add-filerecords-to-knldeletion,y,y,y
