@@ -102,7 +102,6 @@ bc-5990-set-csp-rules,y,y,y
 deletion-draft,y,y,y
 mongodb-6-3-0,y,y,y
 n21-1479-provisioning-options,y,y,y
-bc-5119-prevent-creating-new-nexboards,y,y,y
 bc-5971-copying-internal-links,y,y,y
 bc-5907-blocking-email-domain,y,y,y
 bc-5981-tldraw-announcement,y,y,y
