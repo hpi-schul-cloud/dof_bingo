@@ -110,5 +110,4 @@ bc-5942-admin-api-dedicated-configs,y,y,y
 bc-6034-class-table-locale-fix,y,y,y
 32-20,y,y,y
 mu,y,y,y
-bc-6035-fix-npm-version,y,y,y
 bc-6040-update-redis-packages,y,y,y
