@@ -108,3 +108,4 @@ bc-6040-update-redis-packages,y,y,y
 bc-6058-pin-alpin-version,y,y,y
 n21-1602-fixes-classes-limit,y,y,y
 bc-6058-force-pull,y,y,y
+bc-5981-fix-dashboard-banner-flag,y,y,y
